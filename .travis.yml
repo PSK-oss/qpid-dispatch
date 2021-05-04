@@ -24,7 +24,6 @@ jobs:
   allow_failures:
     - os: osx
     - name: "qdrouterd:TSAN"
-    - arch: arm64
     - arch: s390x
   include:
   - name: "apache-rat:check"
